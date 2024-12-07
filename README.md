@@ -40,7 +40,7 @@ SELECT * FROM demo.nyc.taxis;
 INSERT INTO demo.nyc.taxis
 VALUES (1, 1000371, 1.8, 15.32, 'N'), (2, 1000372, 2.5, 22.15, 'N'), (2, 1000373, 0.9, 9.01, 'N'), (1, 1000374, 8.4, 42.13, 'Y');
 
-SELECT * FROM demo.nyc.taxis;
+SELECT * FROM demo.nyc.taxis;   
 ```
 
 Let's look at the data behind these tables by opening an interactive bash shell in the container.
