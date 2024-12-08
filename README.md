@@ -19,6 +19,8 @@ The container is now running. We can launch SparkSQL commands via
 
 ```bash
 docker exec -it spark-iceberg spark-sql
+# or
+docker exec -it spark-iceberg spark-sql --conf "spark.hadoop.hive.cli.print.header=true"
 ```
 
 The interactive shell is now there.
@@ -56,3 +58,5 @@ We can also launch an Iceberg-Enabled Spark notebook server.
 ```bash
 docker exec -it spark-iceberg pyspark-notebook
 ```
+
+Then open [http://localhost:8888/tree?](http://localhost:8888/tree?)
